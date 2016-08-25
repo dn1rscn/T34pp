@@ -10,6 +10,7 @@ public class Control_monedas : MonoBehaviour
 	ControlDatosGlobales_PICTOGRAMAS cdg;
 	GameObject DGlobales;
 
+	ControlSonidos CS;
 	controlEjercicioCanastas cec;
 
 	public int monedas=0;
@@ -23,6 +24,9 @@ public class Control_monedas : MonoBehaviour
 
 	public int MonedasGenerales_canasta;
 	int monedas_canastas;
+
+	public int MonedasSonidos;
+	int monedasAciertos_Sonidos;
 
 	// Use this for initialization
 	void Start () 
@@ -48,7 +52,7 @@ public class Control_monedas : MonoBehaviour
 
 	public void calcular_monedasGenerales()
 	{
-		monedas = monedas + monedas_dado + monedas_secuencia + MonedasGenerales_canasta;
+		monedas = monedas + monedas_dado + monedas_secuencia + MonedasGenerales_canasta + MonedasSonidos;
 	}
 
 	public void calcular_monedasDado()
@@ -92,6 +96,14 @@ public class Control_monedas : MonoBehaviour
 		monedas_canastas = cec.puntuacionJugador * 3;
 		MonedasGenerales_canasta = monedas_canastas + 20;
 
+	}
+	public void calcular_monedasSonidos()
+	{
+
+		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
+
+		monedasAciertos_Sonidos = CS.aciertos * 3;
+		MonedasSonidos = monedasAciertos_Sonidos;
 	}
 	public void calcular_monedasLogros()
 	{
