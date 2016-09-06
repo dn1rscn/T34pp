@@ -13,6 +13,8 @@ public class Control_monedas : MonoBehaviour
 	ControlSonidos CS;
 	controlEjercicioCanastas cec;
 
+	ControlEmociones CE;
+
 	public int monedas=0;
 
 	public int monedas_dado;
@@ -27,6 +29,10 @@ public class Control_monedas : MonoBehaviour
 
 	public int MonedasSonidos;
 	int monedasAciertos_Sonidos;
+
+	public int monedasSocialNivel1;
+
+	public int monedasEmociones;
 
 	// Use this for initialization
 	void Start () 
@@ -52,7 +58,7 @@ public class Control_monedas : MonoBehaviour
 
 	public void calcular_monedasGenerales()
 	{
-		monedas = monedas + monedas_dado + monedas_secuencia + MonedasGenerales_canasta + MonedasSonidos;
+		monedas = monedas + monedas_dado + monedas_secuencia + MonedasGenerales_canasta + MonedasSonidos + monedasSocialNivel1;
 	}
 
 	public void calcular_monedasDado()
@@ -105,7 +111,42 @@ public class Control_monedas : MonoBehaviour
 		monedasAciertos_Sonidos = CS.aciertos * 3;
 		MonedasSonidos = monedasAciertos_Sonidos;
 	}
-	public void calcular_monedasLogros()
+	public void calcular_monedaSocialNivel1()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		if (CE.fallos == 0) 
+		{
+			monedasSocialNivel1 = 100;
+		} 
+		else 
+		{
+			monedasSocialNivel1 = 30;
+		}
+	}
+	public void calcular_monedasEmocionesNivel1()
+	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		if (CE.fallos <= 3) 
+		{
+			monedasEmociones = 300 - (100 * CE.fallos);
+		}
+	}
+	public void calcular_monedasEmocionesNivel2()
+	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		
+		if (CE.fallos <= 5) 
+		{
+			monedasEmociones = 500 - (100 * CE.fallos);
+		}
+	}
+	public void calcular_monedasEmocionesNivel3()
+	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		
+		if (CE.fallos <= 7) 
+		{
+			monedasEmociones = 700 - (100 * CE.fallos);
+		}
 	}
 }
