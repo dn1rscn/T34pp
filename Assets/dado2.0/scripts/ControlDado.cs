@@ -72,9 +72,9 @@ public class ControlDado : MonoBehaviour
 		if (lanzar == true && cdg.resp==true) 				//si no hay respuesta y el dado no esta en el suelo no se puede lanzar			
 		{
 
-			fuerzaGiroX = Random.Range (200f, 200000f);      			//fuerza de giro (x, y, z) aleatorias
-			fuerzaGiroY = Random.Range (200f, 200000f);
-			fuerzaGiroZ = Random.Range (200f, 200000f);
+			//fuerzaGiroX = Random.Range (200f, 200000f);      			//fuerza de giro (x, y, z) aleatorias
+			//fuerzaGiroY = Random.Range (200f, 200000f);
+			//fuerzaGiroZ = Random.Range (200f, 200000f);
 
 
 			cdg.PicAleat = Random.Range (0, cdg.pictogramas.Length); 			//pictograma aleatorio

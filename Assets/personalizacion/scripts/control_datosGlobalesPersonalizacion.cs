@@ -7,6 +7,7 @@ public class control_datosGlobalesPersonalizacion : MonoBehaviour
 	public int posicion_piel=0;
 	public int posicion_camiseta=0;
 	public int posicion_piernas=0;
+	public int Sexo=0;
 	//public int posicion_complementos=0;
 
 	//public bool complementos=false;
