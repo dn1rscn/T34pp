@@ -15,12 +15,12 @@ public class control_datosGlobalesPersonalizacion : MonoBehaviour
 	public bool piel=false;
 	public bool camiseta=false;
 	public bool piernas=false;
-	public bool mascotas=false;
+	//public bool mascotas=false;
 
 	public bool inicio=true;
 	
-	public Texture[] Atexture_Piel;
-	public Texture[] Atexture_camiseta;
+	//public Texture[] Atexture_Piel;
+	//public Texture[] Atexture_camiseta;
 
 
 	public int mascota;

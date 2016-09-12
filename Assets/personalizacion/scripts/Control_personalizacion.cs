@@ -83,7 +83,7 @@ public class Control_personalizacion : MonoBehaviour
 //*****************************PIEL*****************************************
 		if (cdgp.piel == true) 
 		{
-			if (cdgp.posicion_piel == cdgp.Atexture_Piel.Length-1) 
+			if (cdgp.posicion_piel == CNiños.AColor_Piel.Length-1) 
 			{
 				cdgp.posicion_piel = 0;
 				GameObject.Find("Piel").GetComponent<Renderer>().material=CNiños.AColor_Piel[cdgp.posicion_piel];
@@ -97,7 +97,7 @@ public class Control_personalizacion : MonoBehaviour
 //*****************************CAMISETA*****************************************
 		if (cdgp.camiseta == true) 
 		{
-			if (cdgp.posicion_camiseta == cdgp.Atexture_camiseta.Length-1) 
+			if (cdgp.posicion_camiseta == CNiños.AColor_camiseta.Length-1) 
 			{
 				cdgp.posicion_camiseta = 0;
 				GameObject.Find("Sudadera").GetComponent<Renderer>().material=CNiños.AColor_camiseta[cdgp.posicion_camiseta];
@@ -184,7 +184,7 @@ public class Control_personalizacion : MonoBehaviour
 		{
 			if (cdgp.posicion_piel == 0) 
 			{
-				cdgp.posicion_piel = cdgp.Atexture_Piel.Length-1;
+				cdgp.posicion_piel = CNiños.AColor_Piel.Length-1;
 				GameObject.Find("Piel").GetComponent<Renderer>().material=CNiños.AColor_Piel[cdgp.posicion_piel];
 			} 
 			else
@@ -198,7 +198,7 @@ public class Control_personalizacion : MonoBehaviour
 		{
 			if (cdgp.posicion_camiseta == 0) 
 			{
-				cdgp.posicion_camiseta = cdgp.Atexture_camiseta.Length-1;
+				cdgp.posicion_camiseta = CNiños.AColor_camiseta.Length-1;
 				GameObject.Find("Sudadera").GetComponent<Renderer>().material=CNiños.AColor_camiseta[cdgp.posicion_camiseta];
 				//CNiños.AGeo_complementos [cdgp.posicion_complementos].GetComponent<Renderer>().material.mainTexture=cdgp.Atexture_camiseta[cdgp.posicion_camiseta];
 			} 
