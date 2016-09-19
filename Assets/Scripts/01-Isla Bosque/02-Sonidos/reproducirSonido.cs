@@ -7,9 +7,9 @@ public class reproducirSonido : MonoBehaviour
 	public AudioSource[] ASonidos;
 
 	ControlSonidos CS;
+	RespuestaSonidos RS;
 
-	public Animator AnimPlay;
-	public Animator AnimReplay;
+	public GameObject MaquinaDiscos;
 
 
 	/*public AudioSource Olla;
@@ -37,13 +37,17 @@ public class reproducirSonido : MonoBehaviour
 
 	public void Repetir()
 	{
-		AnimReplay.Play ("replay");
+		MaquinaDiscos.GetComponent<Animation> ().Play ("replay");
+		//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
+
+		//AnimReplay.Play ("replay");
 		ASonidos [SonidoAleatorio].Play ();
 	}
 	
 	public void StopSonido()
 	{
 		ASonidos [SonidoAleatorio].Stop ();
+		GameObject.Find ("animaciones").GetComponent<Animator> ().Stop ();
 		/*for (int i=0; i<ASonidos.Length; i++) 
 		{
 			ASonidos [i].Stop ();
@@ -52,7 +56,13 @@ public class reproducirSonido : MonoBehaviour
 
 	public void Reproducir()
 	{
-		AnimPlay.Play ("play");
+		RS = GameObject.Find ("control respuesta").GetComponent<RespuestaSonidos> ();
+
+		RS.respuesta = false;
+
+		MaquinaDiscos.GetComponent<Animation> ().Play ("play");
+		//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
+
 		SonidoAleatorio = Random.Range (0,4);
 		ASonidos [SonidoAleatorio].Play ();
 		BotonPlay.SetActive (false);

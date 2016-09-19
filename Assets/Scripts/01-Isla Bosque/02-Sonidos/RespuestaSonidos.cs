@@ -24,6 +24,8 @@ public class RespuestaSonidos : MonoBehaviour
 	GameObject puntuacionfin;
 	Text TpuntuacionFin;
 
+	public bool respuesta = true;
+
 	public GameObject BotonPlay;
 	public GameObject BotonRepetir;
 	public GameObject BotonSiguienteNivel;
@@ -31,6 +33,8 @@ public class RespuestaSonidos : MonoBehaviour
 	public GameObject estrella1;
 	public GameObject estrella2;
 	public GameObject estrella3;
+
+	public GameObject MaquinaDiscos;
 
 	// Use this for initialization
 	void Start () 
@@ -48,13 +52,19 @@ public class RespuestaSonidos : MonoBehaviour
 
 	public void respuesta1()
 	{
-		if(RS.SonidoAleatorio==0)
+	if (respuesta == false) 
 		{
-			correcto();
-		}
-		else
-		{
-			incorrecto();
+			MaquinaDiscos.GetComponent<Animation> ().Play ("boton1");
+			GameObject.Find("IM_Botones").GetComponent<Animator> ().Play("AnimBoton1");
+			if (RS.SonidoAleatorio == 0) 
+			{
+				correcto ();
+				respuesta=true;
+			} 
+			else 
+			{
+				incorrecto ();
+			}
 		}
 		
 	
@@ -62,35 +72,53 @@ public class RespuestaSonidos : MonoBehaviour
 
 	public void respuesta2()
 	{
-		if(RS.SonidoAleatorio==1)
+		if (respuesta == false) 
 		{
-			correcto();
-		}
-		else
-		{
-			incorrecto();
+			MaquinaDiscos.GetComponent<Animation> ().Play ("boton2");
+			GameObject.Find("IM_Botones").GetComponent<Animator> ().Play("AnimBoton2");
+			if (RS.SonidoAleatorio == 1) 
+			{
+				correcto ();
+				respuesta=true;
+			} 
+			else 
+			{
+				incorrecto ();
+			}
 		}
 	}
 	public void respuesta3()
 	{
-		if(RS.SonidoAleatorio==2)
+		if (respuesta == false) 
 		{
-			correcto();
-		}
-		else
-		{
-			incorrecto();
+			MaquinaDiscos.GetComponent<Animation> ().Play ("boton3");
+			GameObject.Find("IM_Botones").GetComponent<Animator> ().Play("AnimBoton3");
+			if (RS.SonidoAleatorio == 2) 
+			{
+				correcto ();
+				respuesta=true;
+			} 
+			else 
+			{
+				incorrecto ();
+			}
 		}
 	}
 	public void respuesta4()
 	{
-		if(RS.SonidoAleatorio==3)
+		if (respuesta == false) 
 		{
-			correcto();
-		}
-		else
-		{
-			incorrecto();
+			MaquinaDiscos.GetComponent<Animation> ().Play ("boton4");
+			GameObject.Find("IM_Botones").GetComponent<Animator> ().Play("AnimBoton4");
+			if (RS.SonidoAleatorio == 3) 
+			{
+				correcto ();
+				respuesta=true;
+			} 
+			else 
+			{
+				incorrecto ();
+			}
 		}
 	}
 
