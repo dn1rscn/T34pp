@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 65ad5c5cb4fdf834c8e453aba89cbf95
-timeCreated: 1472742051
+timeCreated: 1474336351
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -55,22 +55,22 @@ TextureImporter:
     - name: logos_redes_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 105
-        width: 392
-        height: 390
+        x: 0
+        y: 84
+        width: 441
+        height: 434
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 2}
     - name: logos_redes_1
       rect:
         serializedVersion: 2
-        x: 493
-        y: 105
-        width: 394
-        height: 390
+        x: 472
+        y: 83
+        width: 428
+        height: 431
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
