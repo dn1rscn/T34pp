@@ -7,6 +7,9 @@ public class ControlEscenas : MonoBehaviour {
 	Animator animator_PanelCanvas;
 	ControlDatosGlobales_Mundo3D CDG_Mundo3D;
 
+	ControlSecuencias cs;
+	ControlEmociones CE;
+
 
 	// Use this for initialization
 	void Start () {
@@ -133,6 +136,11 @@ public class ControlEscenas : MonoBehaviour {
 	//**********************************************************************************
 
 	//******************CARGAR EJERCICIOS*****************************************************
+
+	public void CargarSelecNivelDado()
+	{
+		Application.LoadLevel ("Dado_SeleccionNivel");
+	}
 	public void CargarPICTOGRAMAS_Nivel1(){
 		Application.LoadLevel ("Nivel1_dado2.0");
 	}
@@ -160,19 +168,31 @@ public class ControlEscenas : MonoBehaviour {
 	}
 	public void secuencia_Dientes()
 	{
+		cs = GameObject.Find ("DatosGlobalesSecuencias").GetComponent<ControlSecuencias> ();
+		cs.Secuencia = 1;
+
 		Application.LoadLevel ("SECUENCIAS_Dientes");
 	}
 
 	public void secuencia_telefono()
 	{
+		cs = GameObject.Find ("DatosGlobalesSecuencias").GetComponent<ControlSecuencias> ();
+		cs.Secuencia = 2;
+
 		Application.LoadLevel ("SECUENCIAS_LlamarTelefono");
 	}
 	public void secuencia_Pan()
 	{
+		cs = GameObject.Find ("DatosGlobalesSecuencias").GetComponent<ControlSecuencias> ();
+		cs.Secuencia = 3;
+
 		Application.LoadLevel ("SECUENCIAS_ComprarPan");
 	}
 	public void secuencia_calle()
 	{
+		cs = GameObject.Find ("DatosGlobalesSecuencias").GetComponent<ControlSecuencias> ();
+		cs.Secuencia = 4;
+
 		Application.LoadLevel ("SECUENCIAS_CruzarCalle");
 	}
 	public void canasta()
@@ -195,7 +215,7 @@ public class ControlEscenas : MonoBehaviour {
 	{
 		Application.LoadLevel ("SonidosNivel3");
 	}
-	public void CarcarSocial()
+	public void CargarSocial()
 	{
 		Application.LoadLevel ("1-Social_SelecNivel");
 	}
@@ -205,14 +225,23 @@ public class ControlEscenas : MonoBehaviour {
 	}
 	public void CargarGlobo ()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 1;
+
 		Application.LoadLevel ("1.1.1-Social_Nivel1_Globo");
 	}
 	public void CargarHelado()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 2;
+
 		Application.LoadLevel ("1.1.2-Social_Nivel1_Helado");
 	}
 	public void CargarTormenta()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 3;
+
 		Application.LoadLevel ("1.1.3-Social_Nivel1_Tormenta");
 	}
 	public void CargarSocialNivel2()
@@ -225,14 +254,23 @@ public class ControlEscenas : MonoBehaviour {
 	}
 	public void CargarGloboNivel3()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 1;
+
 		Application.LoadLevel ("1.3.1-Social_Nivel3_Globo");
 	}
 	public void CargarHeladoNivel3()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 2;
+
 		Application.LoadLevel ("1.3.2-Social_Nivel3_Helado");
 	}
 	public void CargarTormentaNivel3()
 	{
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.EjercicioSocial = 3;
+
 		Application.LoadLevel ("1.3.3-Social_Nivel3_Tormenta");
 	}
 	public void CargarEmociones()

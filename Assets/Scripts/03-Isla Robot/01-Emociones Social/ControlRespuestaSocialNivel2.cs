@@ -32,7 +32,8 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-	
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.respuesta = false;
 	}
 	
 	// Update is called once per frame
@@ -41,39 +42,40 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 	}
 	public void respuesta()
 	{
-		CAN2 = GameObject.Find ("ctrlAleatorio").GetComponent<ControlAleatorioSocialNivel2> ();
-		switch (CAN2.PreguntaAleat) 
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		if (CE.respuesta == false) 
 		{
-		case 1:
-			if(gameObject.GetComponent<Image>().sprite.name=="Enfado")
-			{
-				correcto();
+			CAN2 = GameObject.Find ("ctrlAleatorio").GetComponent<ControlAleatorioSocialNivel2> ();
+			switch (CAN2.PreguntaAleat) {
+
+			case 1:
+				if (gameObject.GetComponent<Image> ().sprite.name == "Enfado") 
+				{
+					correcto ();
+				} 
+				else {
+					error ();
+				}
+				break;
+			case 2:
+				if (gameObject.GetComponent<Image> ().sprite.name == "Asco") 
+				{
+					correcto ();
+				} 
+				else {
+					error ();
+				}
+				break;
+			case 3:
+				if (gameObject.GetComponent<Image> ().sprite.name == "Verguenza") 
+				{
+					correcto ();
+				} 
+				else {
+					error ();
+				}
+				break;
 			}
-			else
-			{
-				error();
-			}
-			break;
-		case 2:
-			if(gameObject.GetComponent<Image>().sprite.name=="Asco")
-			{
-				correcto();
-			}
-			else
-			{
-				error();
-			}
-			break;
-		case 3:
-			if(gameObject.GetComponent<Image>().sprite.name=="Verguenza")
-			{
-				correcto();
-			}
-			else
-			{
-				error();
-			}
-			break;
 		}
 	}
 	void correcto()
@@ -119,13 +121,10 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 		TpuntuacionFin.text = "\nCOMPLETADO";
 		
 		TmonedasSocialNivel2.text = cM.monedasSocialNivel1.ToString();
-		
-		if(CE.posicion+1<CE.AEmociones.Length)
-		{
-			CE.AEmociones[CE.posicion=CE.posicion+1]=true;
-		}
+
 		CE.fallos = 0;
 		cM.monedasSocialNivel1 = 0;
+		CE.respuesta = true;
 		
 		
 	}

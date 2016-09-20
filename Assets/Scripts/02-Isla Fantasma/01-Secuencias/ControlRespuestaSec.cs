@@ -125,9 +125,9 @@ public class ControlRespuestaSec : MonoBehaviour
 		{
 			ActivarEstrella1();
 			SiguienteSecuencia.SetActive(true);
-			if(cs.posicion+1<cs.Asecuencias.Length)
+			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
-				cs.Asecuencias[cs.posicion=cs.posicion+1]=true;
+				cs.Asecuencias[cs.Secuencia]=true;
 			}
 		}
 		if (cs.intentos == 2) 
@@ -135,9 +135,9 @@ public class ControlRespuestaSec : MonoBehaviour
 			ActivarEstrella1();
 			ActivarEstrella2();
 			SiguienteSecuencia.SetActive(true);
-			if(cs.posicion+1<cs.Asecuencias.Length)
+			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
-				cs.Asecuencias[cs.posicion=cs.posicion+1]=true;
+				cs.Asecuencias[cs.Secuencia]=true;
 			}
 			//desbloquearportal
 		}
@@ -146,9 +146,9 @@ public class ControlRespuestaSec : MonoBehaviour
 			ActivarEstrella2();
 			ActivarEstrella3();
 			SiguienteSecuencia.SetActive(true);
-			if(cs.posicion+1<cs.Asecuencias.Length)
+			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
-				cs.Asecuencias[cs.posicion=cs.posicion+1]=true;
+				cs.Asecuencias[cs.Secuencia]=true;
 			}
 		}
 		

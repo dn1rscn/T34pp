@@ -8,7 +8,7 @@ public class ControlSecuencias : MonoBehaviour
 	public bool p3=false;
 	public int intentos=1;
 	public bool[] Asecuencias;
-	public int posicion;
+	public int Secuencia;
 
 	// Use this for initialization
 	void Start () 

@@ -31,7 +31,8 @@ public class ControlRespuestaEmociones : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-	
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.respuesta = false;
 	}
 	
 	// Update is called once per frame
@@ -42,15 +43,16 @@ public class ControlRespuestaEmociones : MonoBehaviour
 
 	public void Respuesta()
 	{
-		CEA = GameObject.Find ("ctrAleatorio").GetComponent<ControlEmocionesAleatorio> ();
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		if (CE.respuesta == false) 
+		{
+			CEA = GameObject.Find ("ctrAleatorio").GetComponent<ControlEmocionesAleatorio> ();
 
-		if ("P" + gameObject.GetComponent<Image> ().sprite.name == GameObject.Find ("Pregunta").GetComponent<Image> ().sprite.name) 
-		{
-			Correcto ();
-		} 
-		else 
-		{
-			Error();
+			if ("P" + gameObject.GetComponent<Image> ().sprite.name == GameObject.Find ("Pregunta").GetComponent<Image> ().sprite.name) {
+				Correcto ();
+			} else {
+				Error ();
+			}
 		}
 	}
 
@@ -81,9 +83,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			{
 				ActivarEstrella1();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 1) 
@@ -91,9 +93,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella1();
 				ActivarEstrella2();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 0) 
@@ -102,9 +104,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella2();
 				ActivarEstrella3();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			
@@ -115,6 +117,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			
 			cM.monedasEmociones=0;
 			CE.fallos=0;
+			CE.respuesta=true;
 		}
 		//nivel2
 		if (CEA.ARespuesta.Length == 5) 
@@ -137,9 +140,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			{
 				ActivarEstrella1();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 1||CE.fallos==2) 
@@ -147,9 +150,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella1();
 				ActivarEstrella2();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 0) 
@@ -158,9 +161,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella2();
 				ActivarEstrella3();
 				SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			
@@ -171,6 +174,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			
 			cM.monedasEmociones=0;
 			CE.fallos=0;
+			CE.respuesta=true;
 		}
 		//nivel3
 		if (CEA.ARespuesta.Length == 7) 
@@ -193,9 +197,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			{
 				ActivarEstrella1();
 				//SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 2||CE.fallos==3) 
@@ -203,9 +207,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella1();
 				ActivarEstrella2();
 				//SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			if (CE.fallos == 0||CE.fallos==1) 
@@ -214,9 +218,9 @@ public class ControlRespuestaEmociones : MonoBehaviour
 				ActivarEstrella2();
 				ActivarEstrella3();
 				//SiguienteSecuencia.SetActive(true);
-				if(CE.posicion+1<CE.AEmociones.Length)
+				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
-					CE.AEmociones[CE.posicion=CE.posicion+1]=true;
+					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
 			
@@ -227,6 +231,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			
 			cM.monedasEmociones=0;
 			CE.fallos=0;
+			CE.respuesta=true;
 		}
 	}
 	void Error()
