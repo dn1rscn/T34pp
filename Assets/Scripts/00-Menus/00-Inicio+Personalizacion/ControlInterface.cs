@@ -44,6 +44,26 @@ public class ControlInterface : MonoBehaviour
 			Mascotajuego.SetActive(true);
 			CamJuego.SetActive(true);
 		}
+		switch (cdgP.mascota)
+		{
+		case 0:
+			FondoRobot.SetActive (true);
+			FondoFantasma.SetActive (false);
+			FondoDino.SetActive (false);
+			break;
+
+		case 1:
+			FondoRobot.SetActive (false);
+			FondoFantasma.SetActive (true);
+			FondoDino.SetActive (false);
+			break;
+
+		case 2:
+			FondoRobot.SetActive (false);
+			FondoFantasma.SetActive (false);
+			FondoDino.SetActive (true);
+			break;
+		}
 	
 	}
 	
@@ -51,6 +71,10 @@ public class ControlInterface : MonoBehaviour
 	void Update () 
 	{
 	
+	}
+	public void Mapa()
+	{
+		Application.LoadLevel ("Mapa");
 	}
 	public void RA_personalizacion()
 	{
@@ -103,6 +127,14 @@ public class ControlInterface : MonoBehaviour
 		FondoDino.SetActive (true);
 
 		cdgP.mascota = 2;
+	}
+	public void Facebook ()
+	{
+		Application.OpenURL ("https://www.facebook.com/PrometeoStudios-949884905102365");
+	}
+	public void twitter ()
+	{
+		Application.OpenURL ("https://twitter.com/PrometeoStudios");
 	}
 
 }
