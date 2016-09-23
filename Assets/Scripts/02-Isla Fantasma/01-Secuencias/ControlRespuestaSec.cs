@@ -14,9 +14,9 @@ public class ControlRespuestaSec : MonoBehaviour
 	GameObject ctrlsecuencias;
 	ControlSecuencias cs;
 	
-	public GameObject estrella1;
-	public GameObject estrella2;
-	public GameObject estrella3;
+	//public GameObject estrella1;
+	//public GameObject estrella2;
+	//public GameObject estrella3;
 
 	public GameObject IfinJuego;
 
@@ -108,6 +108,7 @@ public class ControlRespuestaSec : MonoBehaviour
 	{
 		Debug.Log("finjuego2");
 		IfinJuego.SetActive(true);
+		IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
 
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
@@ -123,7 +124,7 @@ public class ControlRespuestaSec : MonoBehaviour
 		
 		if (cs.intentos == 3) 
 		{
-			ActivarEstrella1();
+			Invoke ("ActivarEstrella1", 1.0f);
 			SiguienteSecuencia.SetActive(true);
 			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
@@ -132,8 +133,8 @@ public class ControlRespuestaSec : MonoBehaviour
 		}
 		if (cs.intentos == 2) 
 		{
-			ActivarEstrella1();
-			ActivarEstrella2();
+			Invoke ("ActivarEstrella1", 1.0f);
+			Invoke ("ActivarEstrella2", 2.0f);
 			SiguienteSecuencia.SetActive(true);
 			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
@@ -142,9 +143,9 @@ public class ControlRespuestaSec : MonoBehaviour
 			//desbloquearportal
 		}
 		if (cs.intentos == 1) {
-			ActivarEstrella1();
-			ActivarEstrella2();
-			ActivarEstrella3();
+			Invoke ("ActivarEstrella1", 1.0f);
+			Invoke ("ActivarEstrella2", 2.0f);
+			Invoke ("ActivarEstrella3", 3.0f);
 			SiguienteSecuencia.SetActive(true);
 			if(cs.Secuencia<cs.Asecuencias.Length)
 			{
@@ -172,19 +173,21 @@ public class ControlRespuestaSec : MonoBehaviour
 	
 	void ActivarEstrella1()
 	{
-		Debug.Log("estrella1");
-		//yield return new WaitForSeconds (2.0f);
-		estrella1.SetActive (true);
+		//estrella1.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
+		//estrella1.SetActive (true);
 	}
 	void ActivarEstrella2()
 	{
-		//yield return new WaitForSeconds (2.0f);
-		estrella2.SetActive (true);
+		//estrella2.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
+		//estrella2.SetActive (true);
 	}
 	void ActivarEstrella3()
 	{
-		//yield return new WaitForSeconds (2.0f);
-		estrella3.SetActive (true);
+		//estrella3.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
+		//estrella3.SetActive (true);
 	}
 
 	public void resetar_secuencias()

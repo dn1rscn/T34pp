@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ControlEmociones : MonoBehaviour 
 {
+	public static ControlEmociones cont;
+
 	public int fallos=0;
 	public int aciertos=0;
 	public bool[] ASocialNivel1;
@@ -22,5 +24,15 @@ public class ControlEmociones : MonoBehaviour
 	void Update () 
 	{
 	
+	}
+	void Awake ()
+	{
+		
+		if (cont == null) {
+			cont = this;
+			DontDestroyOnLoad (gameObject);
+		} else if (cont != this) {
+			Destroy(gameObject);
+		}
 	}
 }

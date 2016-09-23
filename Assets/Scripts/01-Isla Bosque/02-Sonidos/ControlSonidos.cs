@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ControlSonidos : MonoBehaviour 
 {
+	public static ControlSonidos cont;
+
 	//public int nivel=0;
 	public int fallos=0;
 	public int aciertos=0;
@@ -19,5 +21,15 @@ public class ControlSonidos : MonoBehaviour
 	void Update () 
 	{
 	
+	}
+	void Awake ()
+	{
+		
+		if (cont == null) {
+			cont = this;
+			DontDestroyOnLoad (gameObject);
+		} else if (cont != this) {
+			Destroy(gameObject);
+		}
 	}
 }

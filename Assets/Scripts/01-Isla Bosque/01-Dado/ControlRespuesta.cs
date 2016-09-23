@@ -131,6 +131,7 @@ public class ControlRespuesta : MonoBehaviour
 		if (cdg.fallos == 5) 
 		{
 			IfinJuego.SetActive (true);
+			IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
 			
 			puntuacionfin = GameObject.Find ("puntuacionFin");
 			TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
@@ -176,15 +177,21 @@ public class ControlRespuesta : MonoBehaviour
 
 	void ActivarEstrella1()
 	{
-		estrella1.SetActive (true);
+		//estrella1.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
+		//estrella1.SetActive (true);
 	}
 	void ActivarEstrella2()
 	{
-		estrella2.SetActive (true);
+		//estrella2.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
+		//estrella2.SetActive (true);
 	}
 	void ActivarEstrella3()
 	{
-		estrella3.SetActive (true);
+		//estrella3.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
+		//estrella3.SetActive (true);
 	}
 	void resetearDado()
 	{

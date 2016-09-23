@@ -3,6 +3,8 @@ using System.Collections;
 
 public class control_datosGlobalesPersonalizacion : MonoBehaviour 
 {
+	public static control_datosGlobalesPersonalizacion cont;
+
 	public int posicion_pelo=0;
 	public int posicion_piel=0;
 	public int posicion_camiseta=0;
@@ -32,6 +34,16 @@ public class control_datosGlobalesPersonalizacion : MonoBehaviour
 	{
 		DontDestroyOnLoad (this);
 	
+	}
+	void Awake ()
+	{
+		
+		if (cont == null) {
+			cont = this;
+			DontDestroyOnLoad (gameObject);
+		} else if (cont != this) {
+			Destroy(gameObject);
+		}
 	}
 	
 	// Update is called once per frame

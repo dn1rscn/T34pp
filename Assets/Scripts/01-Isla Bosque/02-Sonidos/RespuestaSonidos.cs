@@ -30,9 +30,9 @@ public class RespuestaSonidos : MonoBehaviour
 	public GameObject BotonRepetir;
 	public GameObject BotonSiguienteNivel;
 
-	public GameObject estrella1;
-	public GameObject estrella2;
-	public GameObject estrella3;
+	//public GameObject estrella1;
+	//public GameObject estrella2;
+	//public GameObject estrella3;
 
 	public GameObject MaquinaDiscos;
 
@@ -139,6 +139,7 @@ public class RespuestaSonidos : MonoBehaviour
 		if(CS.fallos==5)
 		{
 			IfinJuego.SetActive (true);
+			IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
 
 			RS.StopSonido();
 
@@ -198,16 +199,16 @@ public class RespuestaSonidos : MonoBehaviour
 	{
 		Debug.Log("estrella1");
 		//yield return new WaitForSeconds (2.0f);
-		estrella1.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
 	}
 	void ActivarEstrella2()
 	{
 		//yield return new WaitForSeconds (2.0f);
-		estrella2.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
 	}
 	void ActivarEstrella3()
 	{
 		//yield return new WaitForSeconds (2.0f);
-		estrella3.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
 	}
 }

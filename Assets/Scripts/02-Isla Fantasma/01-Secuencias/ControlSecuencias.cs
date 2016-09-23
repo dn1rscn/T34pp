@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ControlSecuencias : MonoBehaviour 
 {
+	public static ControlSecuencias cont;
+
 	public bool p1=false;
 	public bool p2=false;
 	public bool p3=false;
@@ -14,17 +16,6 @@ public class ControlSecuencias : MonoBehaviour
 	void Start () 
 	{
 		DontDestroyOnLoad (this);
-		/*for (i=0; i<Asecuencias.Length; i++) 
-		{
-			if(Asecuencias[i]==true)
-			{
-				Asecuencias[i].SetActive (true);
-			}
-			else if(Asecuencias[i]==false)
-			{
-				Asecuencias[i].SetActive(false);
-			}
-		}*/
 	
 	}
 	
@@ -32,5 +23,16 @@ public class ControlSecuencias : MonoBehaviour
 	void Update () 
 	{
 	
+	}
+
+	void Awake ()
+	{
+		
+		if (cont == null) {
+			cont = this;
+			DontDestroyOnLoad (gameObject);
+		} else if (cont != this) {
+			Destroy(gameObject);
+		}
 	}
 }

@@ -47,7 +47,6 @@ public class reproducirSonido : MonoBehaviour
 	public void StopSonido()
 	{
 		ASonidos [SonidoAleatorio].Stop ();
-		GameObject.Find ("animaciones").GetComponent<Animator> ().Stop ();
 		/*for (int i=0; i<ASonidos.Length; i++) 
 		{
 			ASonidos [i].Stop ();
