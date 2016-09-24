@@ -311,7 +311,1927 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Posicionamiento_0_5
+      takeName: Posicionamiento_0_5
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAndar_5_33
+      takeName: CicloAndar_5_33
+      firstFrame: 5
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAnimReposo01_43_115
+      takeName: CicloAnimReposo01_43_115
+      firstFrame: 43
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAnimReposo02_115_223
+      takeName: CicloAnimReposo02_115_223
+      firstFrame: 115
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAnimReposo03_233_310
+      takeName: CicloAnimReposo03_233_310
+      firstFrame: 233
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAnimCelebracion_310_355
+      takeName: CicloAnimCelebracion_310_355
+      firstFrame: 310
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloAnimReposo04_356_476
+      takeName: CicloAnimReposo04_356_476
+      firstFrame: 356
+      lastFrame: 476
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CicloReposoBasico_476_625
+      takeName: CicloReposoBasico_476_625
+      firstFrame: 476
+      lastFrame: 625
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChicosTEApp
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pantalon_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_der/chica_pierna_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pantalon_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenInferior/grp_Pierna_Chica_izq/chica_pierna_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/boca_ChicaNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Cejas/Ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaDer
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Coletas/ColetaIzqNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Ojos/Ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_der/pestania3
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania1
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/grp_Pestanias_izq/pestania3
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/grp_Cabeza/Pelo
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_der_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/mano_izq_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chica_Geometria/grp_TrenSuperior/Sudadera_Chica
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pantalon_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_der/Pierna_izq_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pantalon_der_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/grp_Pierna_Chico_izq/Pierna_der_chicoNueva1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_der_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenInferior 1/Pierna_izq_chicoVieja
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/boca_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Cabeza 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Gorra
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Cejas 1/Ceja_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_der 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/grp_Ojos 1/Ojo_izq 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/grp_Cabeza
+          1/Pelo 1
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_der_chicoNueva
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/mano_izq_chico
+        weight: 1
+      - path: ChicosTEApp/grp_Geometria/grp_Chico_Geometria/grp_TrenSuperior 1/Sudadera_chico
+        weight: 1
+      - path: ChicosTEApp/grp_joints
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ceja_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_ojo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_cabeza/j_punta_cabeza
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_der/j_brazo_der/j_antebrazo_der/j_mano_der/j_punta_brazo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_cintura/j_costillas/j_hombro_izq/j_brazo_izq/j_antebrazo_izq/j_mano_izq/j_punta_brazo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_der/j_espinilla_der/j_tobillo_der/j_planta_der/j_punta_pie_der
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq
+        weight: 1
+      - path: ChicosTEApp/grp_joints/j_cadera/j_muslo_izq/j_espinilla_izq/j_tobillo_izq/j_planta_izq/j_punta_pie_izq
+        weight: 1
+      - path: Guia_de_anims
+        weight: 1
+      - path: Guia_de_anims/CicloAndar_5_33
+        weight: 1
+      - path: Guia_de_anims/CicloAnimCelebracion_310_355
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo01_43_115
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo02_115_223
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo03_233_310
+        weight: 1
+      - path: Guia_de_anims/CicloAnimReposo04_356_476
+        weight: 1
+      - path: Guia_de_anims/CicloReposoBasico_476_625
+        weight: 1
+      - path: Guia_de_anims/Posicionamiento_0_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
