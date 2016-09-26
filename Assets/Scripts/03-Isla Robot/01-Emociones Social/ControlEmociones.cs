@@ -5,7 +5,7 @@ public class ControlEmociones : MonoBehaviour
 {
 	public static ControlEmociones cont;
 
-	public int fallos=0;
+	public int Intentos=1;
 	public int aciertos=0;
 	public bool[] ASocialNivel1;
 	public bool[] ASocialNivel3;

@@ -114,7 +114,7 @@ public class Control_monedas : MonoBehaviour
 	public void calcular_monedaSocialNivel1()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
-		if (CE.fallos == 0) 
+		if (CE.Intentos == 1) 
 		{
 			monedasSocialNivel1 = 100;
 		} 
@@ -126,27 +126,27 @@ public class Control_monedas : MonoBehaviour
 	public void calcular_monedasEmocionesNivel1()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
-		if (CE.fallos <= 3) 
+		if (CE.Intentos <= 3) 
 		{
-			monedasEmociones = 300 - (100 * CE.fallos);
+			monedasEmociones = 300 - (100 * (CE.Intentos-1));
 		}
 	}
 	public void calcular_monedasEmocionesNivel2()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		
-		if (CE.fallos <= 5) 
+		if (CE.Intentos <= 5) 
 		{
-			monedasEmociones = 500 - (100 * CE.fallos);
+			monedasEmociones = 500 - (100 * (CE.Intentos-1));
 		}
 	}
 	public void calcular_monedasEmocionesNivel3()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		
-		if (CE.fallos <= 7) 
+		if (CE.Intentos <= 7) 
 		{
-			monedasEmociones = 700 - (100 * CE.fallos);
+			monedasEmociones = 700 - (100 * (CE.Intentos-1));
 		}
 	}
 }

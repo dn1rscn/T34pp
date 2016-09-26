@@ -6,10 +6,6 @@ public class ControlRespuestaEmociones : MonoBehaviour
 {
 	ControlEmocionesAleatorio CEA;
 	ControlEmociones CE;
-
-	public GameObject estrella1;
-	public GameObject estrella2;
-	public GameObject estrella3;
 	
 	public GameObject IfinJuego;
 	
@@ -33,6 +29,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		CE.respuesta = false;
+		actualizarPuntuacion ();
 	}
 	
 	// Update is called once per frame
@@ -78,31 +75,32 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasEmocionesNivel1 ();
 			cM.calcular_monedasGenerales ();
 
-			print(CE.fallos);
-			if (CE.fallos == 2) 
+			print(CE.Intentos);
+			if (CE.Intentos >= 3) 
 			{
-				ActivarEstrella1();
+				Invoke ("ActivarEstrella1", 1.0f);
+
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 1) 
+			if (CE.Intentos == 2) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 0) 
+			if (CE.Intentos == 1) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
-				ActivarEstrella3();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
+				Invoke ("ActivarEstrella3", 3.0f);
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
@@ -111,12 +109,12 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			}
 			
 			
-			TpuntuacionFin.text = "\nFALLOS: " + CE.fallos.ToString ();
+			TpuntuacionFin.text = "\nIntentos: " + CE.Intentos.ToString ();
 			
 			TmonedasEmociones.text = cM.monedasEmociones.ToString();
 			
 			cM.monedasEmociones=0;
-			CE.fallos=0;
+			CE.Intentos=1;
 			CE.respuesta=true;
 		}
 		//nivel2
@@ -136,30 +134,32 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasEmocionesNivel2 ();
 			cM.calcular_monedasGenerales ();
 			
-			if (CE.fallos == 3||CE.fallos==4) 
+			if (CE.Intentos >= 4) 
 			{
-				ActivarEstrella1();
+				Invoke ("ActivarEstrella1", 1.0f);
+
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 1||CE.fallos==2) 
+			if (CE.Intentos == 2||CE.Intentos==3) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
+
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 0) 
+			if (CE.Intentos == 1) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
-				ActivarEstrella3();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
+				Invoke ("ActivarEstrella3", 3.0f);
 				SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
@@ -168,12 +168,12 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			}
 			
 			
-			TpuntuacionFin.text = "\nFALLOS: " + CE.fallos.ToString ();
+			TpuntuacionFin.text = "\nIntentos: " + CE.Intentos.ToString ();
 			
 			TmonedasEmociones.text = cM.monedasEmociones.ToString();
 			
 			cM.monedasEmociones=0;
-			CE.fallos=0;
+			CE.Intentos=0;
 			CE.respuesta=true;
 		}
 		//nivel3
@@ -193,30 +193,30 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasEmocionesNivel3 ();
 			cM.calcular_monedasGenerales ();
 			
-			if (CE.fallos == 4||CE.fallos==5) 
+			if (CE.Intentos >= 5) 
 			{
-				ActivarEstrella1();
+				Invoke ("ActivarEstrella1", 1.0f);
 				//SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 2||CE.fallos==3) 
+			if (CE.Intentos == 3||CE.Intentos==4) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
 				//SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.fallos == 0||CE.fallos==1) 
+			if (CE.Intentos == 1||CE.Intentos==2) 
 			{
-				ActivarEstrella1();
-				ActivarEstrella2();
-				ActivarEstrella3();
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
+				Invoke ("ActivarEstrella3", 3.0f);
 				//SiguienteSecuencia.SetActive(true);
 				if(CE.NivelEmociones<CE.AEmociones.Length)
 				{
@@ -225,12 +225,12 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			}
 			
 			
-			TpuntuacionFin.text = "\nFALLOS: " + CE.fallos.ToString ();
+			TpuntuacionFin.text = "\nIntentos: " + CE.Intentos.ToString ();
 			
 			TmonedasEmociones.text = cM.monedasEmociones.ToString();
 			
 			cM.monedasEmociones=0;
-			CE.fallos=0;
+			CE.Intentos=1;
 			CE.respuesta=true;
 		}
 	}
@@ -238,22 +238,30 @@ public class ControlRespuestaEmociones : MonoBehaviour
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		print ("fallo");
-		CE.fallos++;
+		CE.Intentos++;
+		actualizarPuntuacion ();
 	}
 	void ActivarEstrella1()
 	{
 		Debug.Log("estrella1");
 		//yield return new WaitForSeconds (2.0f);
-		estrella1.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
 	}
 	void ActivarEstrella2()
 	{
 		//yield return new WaitForSeconds (2.0f);
-		estrella2.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
 	}
 	void ActivarEstrella3()
 	{
 		//yield return new WaitForSeconds (2.0f);
-		estrella3.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
+	}
+	void actualizarPuntuacion()
+	{
+		puntuacion = GameObject.Find ("puntuacion");
+		Tpuntuacion = puntuacion.GetComponent<Text> ();
+		
+		Tpuntuacion.text = CE.Intentos.ToString();
 	}
 }

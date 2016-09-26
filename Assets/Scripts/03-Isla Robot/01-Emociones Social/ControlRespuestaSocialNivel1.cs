@@ -8,10 +8,6 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 
 	ControlEmociones CE;
 
-	public GameObject estrella1;
-	public GameObject estrella2;
-	public GameObject estrella3;
-	
 	public GameObject IfinJuego;
 	
 	//public GameObject BotonVolverGrande;
@@ -34,6 +30,7 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		CE.respuesta = false;
+		actualizarPuntuacion ();
 
 	}
 	
@@ -68,6 +65,7 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 				}
 			}
 		}
+		actualizarPuntuacion ();
 
 	}
 
@@ -89,11 +87,11 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 		
 		cM.calcular_monedaSocialNivel1 ();
 		cM.calcular_monedasGenerales ();
-		if (CE.fallos == 0) 
+		if (CE.Intentos == 1) 
 		{
-			estrella1.SetActive (true);
-			estrella2.SetActive (true);
-			estrella3.SetActive (true);
+			Invoke ("ActivarEstrella1", 1.0f);
+			Invoke ("ActivarEstrella2", 2.0f);
+			Invoke ("ActivarEstrella3", 3.0f);
 
 			SiguienteSituacion.SetActive (true);
 			if(CE.EjercicioSocial<CE.ASocialNivel1.Length)
@@ -103,10 +101,10 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 		} 
 		else 
 		{
-			if (CE.fallos == 1) 
+			if (CE.Intentos == 2) 
 			{
-				estrella1.SetActive (true);
-				estrella2.SetActive (true);
+				Invoke ("ActivarEstrella1", 1.0f);
+				Invoke ("ActivarEstrella2", 2.0f);
 
 				SiguienteSituacion.SetActive (true);
 				if(CE.EjercicioSocial<CE.ASocialNivel1.Length)
@@ -116,7 +114,7 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 			} 
 			else 
 			{
-				estrella1.SetActive (true);
+				Invoke ("ActivarEstrella1", 1.0f);
 
 				SiguienteSituacion.SetActive (true);
 				if(CE.EjercicioSocial<CE.ASocialNivel1.Length)
@@ -127,12 +125,12 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 		}
 
 
-		TpuntuacionFin.text = "\nCOMPLETADO";
+		TpuntuacionFin.text = "\nIntentos: " + CE.Intentos.ToString();
 		
 		TmonedasSocialNivel1.text = cM.monedasSocialNivel1.ToString();
 
 
-		CE.fallos = 0;
+		CE.Intentos = 1;
 		cM.monedasSocialNivel1 = 0;
 		CE.respuesta = true;
 
@@ -142,6 +140,29 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		print ("error");
 
-		CE.fallos++;
+		CE.Intentos++;
+	}
+	void actualizarPuntuacion()
+	{
+		puntuacion = GameObject.Find ("puntuacion");
+		Tpuntuacion = puntuacion.GetComponent<Text> ();
+		
+		Tpuntuacion.text = CE.Intentos.ToString();
+	}
+	void ActivarEstrella1()
+	{
+		Debug.Log("estrella1");
+		//yield return new WaitForSeconds (2.0f);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
+	}
+	void ActivarEstrella2()
+	{
+		//yield return new WaitForSeconds (2.0f);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
+	}
+	void ActivarEstrella3()
+	{
+		//yield return new WaitForSeconds (2.0f);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
 	}
 }

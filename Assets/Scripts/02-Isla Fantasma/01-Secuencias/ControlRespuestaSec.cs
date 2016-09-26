@@ -13,37 +13,21 @@ public class ControlRespuestaSec : MonoBehaviour
 	public GameObject P3;
 	GameObject ctrlsecuencias;
 	ControlSecuencias cs;
-	
-	//public GameObject estrella1;
-	//public GameObject estrella2;
-	//public GameObject estrella3;
+	controlSituaciones CSit;
 
-	public GameObject IfinJuego;
-
-	//public GameObject BotonVolverGrande;
-
-	public GameObject SiguienteSecuencia;
-
-	Control_monedas cM;
-	GameObject ControlMonedas;
+	FinPartida_Secuencias Fin_Sec;
 	
 	GameObject puntuacion;
 	Text Tpuntuacion;
-	
-	GameObject monedasSecuencia;
-	Text TmonedasSecuencia;
-
-	GameObject puntuacionfin;
-	Text TpuntuacionFin;
 
 	// Use this for initialization
 	void Start () 
 	{
 		ctrlsecuencias = GameObject.Find ("DatosGlobalesSecuencias");
 		cs = ctrlsecuencias.GetComponent<ControlSecuencias> ();
-		//BotonVolverGrande.SetActive(false);
+
 		actualizarPuntuacion ();
-		IfinJuego.SetActive (false);
+
 	}
 	
 	// Update is called once per frame
@@ -55,28 +39,33 @@ public class ControlRespuestaSec : MonoBehaviour
 
 	public void click()
 	{
+		Fin_Sec = GameObject.Find ("crtlFinPartida").GetComponent<FinPartida_Secuencias> ();
 		ctrlsecuencias = GameObject.Find ("DatosGlobalesSecuencias");
 		cs = ctrlsecuencias.GetComponent<ControlSecuencias> ();
+		CSit=GameObject.Find ("ctrlSituaciones").GetComponent<controlSituaciones>();
 
 		if (gameObject.GetComponent<Image> ().sprite.name == "Primera") 
 		{
+			P1.SetActive(true);
 			P1.GetComponent<Image> ().sprite = primera;
 			Destroy(gameObject);
 			cs.p1=true;
 		}
 		else if (gameObject.GetComponent<Image> ().sprite.name == "Segunda"&&cs.p1==true) 
 		{
+			P2.SetActive(true);
 			P2.GetComponent<Image> ().sprite = segunda;
 			Destroy(gameObject);
 			cs.p2=true;
 		}
 		else if (gameObject.GetComponent<Image> ().sprite.name == "Tercera"&&cs.p1==true&&cs.p2==true) 
 		{
+			P3.SetActive(true);
 			P3.GetComponent<Image> ().sprite = tercera;
 			Destroy(gameObject);
 			cs.p3=true;
 
-			Invoke("finjuego",2);
+			//Invoke("finjuego",2);
 
 			//HAS ACERTADO
 			GameObject.Find("SonidoAcierto").GetComponent<AudioSource>().Play();
@@ -86,7 +75,7 @@ public class ControlRespuestaSec : MonoBehaviour
 			//GameObject.Find("Boton_Volver").SetActive(false);
 
 			Debug.Log("finjuego1");
-			finjuego();
+			Fin_Sec.finjuego();
 
 		}
 		else 
@@ -103,65 +92,7 @@ public class ControlRespuestaSec : MonoBehaviour
 			GameObject.Find("SonidoFallo").GetComponent<AudioSource>().Play();
 		}
 	}
-
-	void finjuego()
-	{
-		Debug.Log("finjuego2");
-		IfinJuego.SetActive(true);
-		IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
-
-		ControlMonedas = GameObject.Find ("controlMonedas");
-		cM = ControlMonedas.GetComponent<Control_monedas> ();
-
-		puntuacionfin = GameObject.Find ("puntuacionFin");
-		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
-		
-		monedasSecuencia = GameObject.Find ("monedas");
-		TmonedasSecuencia = monedasSecuencia.GetComponent<Text> ();
-		
-		cM.calcular_monedasSecuencia ();
-		cM.calcular_monedasGenerales ();
-		
-		if (cs.intentos == 3) 
-		{
-			Invoke ("ActivarEstrella1", 1.0f);
-			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
-			{
-				cs.Asecuencias[cs.Secuencia]=true;
-			}
-		}
-		if (cs.intentos == 2) 
-		{
-			Invoke ("ActivarEstrella1", 1.0f);
-			Invoke ("ActivarEstrella2", 2.0f);
-			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
-			{
-				cs.Asecuencias[cs.Secuencia]=true;
-			}
-			//desbloquearportal
-		}
-		if (cs.intentos == 1) {
-			Invoke ("ActivarEstrella1", 1.0f);
-			Invoke ("ActivarEstrella2", 2.0f);
-			Invoke ("ActivarEstrella3", 3.0f);
-			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
-			{
-				cs.Asecuencias[cs.Secuencia]=true;
-			}
-		}
-		
-		
-		TpuntuacionFin.text = "\nINTENTOS: " + cs.intentos.ToString () + "\nLOGROS: ";
-		
-		TmonedasSecuencia.text = cM.monedas_secuencia.ToString();
-
-		resetar_secuencias ();
-
-	}
-
+	
 	void actualizarPuntuacion()
 	{
 		puntuacion = GameObject.Find ("puntuacion");
@@ -170,39 +101,4 @@ public class ControlRespuestaSec : MonoBehaviour
 		Tpuntuacion.text = cs.intentos.ToString();
 	}
 
-	
-	void ActivarEstrella1()
-	{
-		//estrella1.SetActive (true);
-		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
-		//estrella1.SetActive (true);
-	}
-	void ActivarEstrella2()
-	{
-		//estrella2.SetActive (true);
-		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
-		//estrella2.SetActive (true);
-	}
-	void ActivarEstrella3()
-	{
-		//estrella3.SetActive (true);
-		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
-		//estrella3.SetActive (true);
-	}
-
-	public void resetar_secuencias()
-	{
-		ctrlsecuencias = GameObject.Find ("DatosGlobalesSecuencias");
-		cs = ctrlsecuencias.GetComponent<ControlSecuencias> ();
-
-		ControlMonedas = GameObject.Find ("controlMonedas");
-		cM = ControlMonedas.GetComponent<Control_monedas> ();
-
-		cs.intentos = 1;
-		cM.monedas_secuencia = 0;
-		cs.p1 = false;
-		cs.p2 = false;
-		cs.p3 = false;
-	}
-	
 }
