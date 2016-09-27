@@ -78,6 +78,8 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 	void correcto()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 		
 		print ("correcto");
 		IfinJuego.SetActive(true);
@@ -129,6 +131,7 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		print ("error");
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("Fallo");
 		
 		CE.Intentos++;
 		actualizarPuntuacion ();

@@ -79,16 +79,16 @@ public class Control_monedas : MonoBehaviour
 		switch (cs.intentos) 
 		{
 			case 1:
-				monedas_intentos=200;
-				break;
-			case 2:
 				monedas_intentos=100;
 				break;
-			case 3:
+			case 2:
 				monedas_intentos=50;
 				break;
-			case 4:
+			case 3:
 				monedas_intentos=10;
+				break;
+			case 4:
+				monedas_intentos=0;
 				break;
 		}
 

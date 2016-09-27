@@ -65,13 +65,15 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 				}
 			}
 		}
-		actualizarPuntuacion ();
+
 
 	}
 
 	void correcto()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 
 		print ("correcto");
 		IfinJuego.SetActive(true);
@@ -139,8 +141,10 @@ public class ControlRespuestaSocialNivel1 : MonoBehaviour
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
 		print ("error");
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("Fallo");
 
 		CE.Intentos++;
+		actualizarPuntuacion ();
 	}
 	void actualizarPuntuacion()
 	{
