@@ -18,7 +18,8 @@ public class reproducirSonido : MonoBehaviour
 	public AudioSource Micro;*/
 	public GameObject BotonPlay;
 	public GameObject BotonRepetir;
-	
+
+
 	
 	public int SonidoAleatorio;
 	
@@ -26,8 +27,8 @@ public class reproducirSonido : MonoBehaviour
 	void Start () 
 	{
 		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
-		BotonPlay.SetActive (true);
-		BotonRepetir.SetActive (false);
+		//BotonPlay.SetActive (true);
+		//BotonRepetir.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -37,7 +38,7 @@ public class reproducirSonido : MonoBehaviour
 
 	public void Repetir()
 	{
-		MaquinaDiscos.GetComponent<Animation> ().Play ("replay");
+		//MaquinaDiscos.GetComponent<Animation> ().Play ("replay");
 		//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
 
 		//AnimReplay.Play ("replay");
@@ -57,15 +58,20 @@ public class reproducirSonido : MonoBehaviour
 	{
 		RS = GameObject.Find ("control respuesta").GetComponent<RespuestaSonidos> ();
 
-		RS.respuesta = false;
+		if (RS.respuesta == true) {
+			RS.respuesta = false;
 
-		MaquinaDiscos.GetComponent<Animation> ().Play ("play");
-		//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
+			//MaquinaDiscos.GetComponent<Animation> ().Play ("play");
+			//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
 
-		SonidoAleatorio = Random.Range (0,4);
-		ASonidos [SonidoAleatorio].Play ();
-		BotonPlay.SetActive (false);
-		BotonRepetir.SetActive (true);
+			SonidoAleatorio = Random.Range (0, 4);
+			ASonidos [SonidoAleatorio].Play ();
+			//BotonPlay.SetActive (false);
+			//BotonRepetir.SetActive (true);
+		} else if (RS.respuesta == false) 
+		{
+			//MENSAJE MASCOTA NO HAY RESPUESTA
+		}
 		
 	}
 }
