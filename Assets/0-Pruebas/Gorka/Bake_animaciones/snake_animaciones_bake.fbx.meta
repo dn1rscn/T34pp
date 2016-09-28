@@ -66,7 +66,7 @@ ModelImporter:
       name: movimiento_serpiente
       takeName: movimiento_serpiente
       firstFrame: 0
-      lastFrame: 85
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -123,7 +123,7 @@ ModelImporter:
     - serializedVersion: 16
       name: reposo_serpiente
       takeName: reposo_serpiente
-      firstFrame: 90
+      firstFrame: 110
       lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
