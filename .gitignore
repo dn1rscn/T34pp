@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.meta
+Assets/0-Pruebas/Gorka/Bake_animaciones/prefabs_pruebas/animator-animaciones/camaras/isla_bosque/camara_prueba.controller.meta
+*.meta
