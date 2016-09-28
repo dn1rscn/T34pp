@@ -110,7 +110,457 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: movimiento_robot
+      takeName: movimiento_robot
+      firstFrame: 15
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_geo_cabeza1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_pPlane1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der/robot_ciclo_animacion_propio_v1_j_punta_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq/robot_ciclo_animacion_propio_v1_j_punta_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_ctls_extra
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_boca
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3/robot_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor/robot_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_cabeza
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_llama
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojos
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojosCerrados
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo_robot
+      takeName: reposo_robot
+      firstFrame: 74
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_geo_cabeza1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_pPlane1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der/robot_ciclo_animacion_propio_v1_j_punta_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq/robot_ciclo_animacion_propio_v1_j_punta_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_ctls_extra
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_boca
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3/robot_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor/robot_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_cabeza
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_llama
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojos
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojosCerrados
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: saludo_robot
+      takeName: saludo_robot
+      firstFrame: 192
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_geo_cabeza1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_pPlane1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der/robot_ciclo_animacion_propio_v1_j_punta_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq/robot_ciclo_animacion_propio_v1_j_punta_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_ctls_extra
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_boca
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3/robot_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor/robot_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_cabeza
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_llama
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojos
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojosCerrados
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: acierto_robot
+      takeName: acierto_robot
+      firstFrame: 241
+      lastFrame: 289
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_geo_cabeza1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_pPlane1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der/robot_ciclo_animacion_propio_v1_j_punta_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq/robot_ciclo_animacion_propio_v1_j_punta_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_ctls_extra
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_boca
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3/robot_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor/robot_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_cabeza
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_llama
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojos
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojosCerrados
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fallo_robot
+      takeName: fallo_robot
+      firstFrame: 133
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_geo_cabeza1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_pPlane1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_der/robot_ciclo_animacion_propio_v1_j_mano_der/robot_ciclo_animacion_propio_v1_j_punta_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_brazo_izq/robot_ciclo_animacion_propio_v1_j_mano_izq/robot_ciclo_animacion_propio_v1_j_punta_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_ctls_extra
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_boca
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_j_ojo_izq1
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_Head/robot_ciclo_animacion_propio_v1_joint3/robot_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_escalar/robot_ciclo_animacion_propio_v1_grp_move/robot_ciclo_animacion_propio_v1_j_todo_PosInicial_TransY_a_1/robot_ciclo_animacion_propio_v1_j_propulsor/robot_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_cabeza
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_engranaje
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_llama
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_der
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_mano_izq
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojos
+        weight: 1
+      - path: robot_ciclo_animacion_propio_v1_Robot/robot_ciclo_animacion_propio_v1_grp_geo_robot/robot_ciclo_animacion_propio_v1_geo_ojosCerrados
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

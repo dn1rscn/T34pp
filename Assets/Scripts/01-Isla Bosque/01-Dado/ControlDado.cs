@@ -13,7 +13,7 @@ public class ControlDado : MonoBehaviour
 
 	Renderer miRender;		 
 
-	public int tiempo;
+	public float tiempo;
 
 	int PicAleat;
 
@@ -55,8 +55,9 @@ public class ControlDado : MonoBehaviour
 
 	void salto()			//funcion salto dado
 	{
-		rbd.AddForce (0f, fuerzaSalto, 0f); 						//fuerza para el salto
-		rbd.AddTorque (fuerzaGiroX, fuerzaGiroY, fuerzaGiroZ); 		//fuerza de giro
+		//rbd.AddForce (0f, fuerzaSalto, 0f); 						//fuerza para el salto
+		//rbd.AddTorque (fuerzaGiroX, fuerzaGiroY, fuerzaGiroZ); 		//fuerza de giro
+		GameObject.Find ("Dado").GetComponent<Animator> ().Play ("Salto_Dado");
 	}
 
 
