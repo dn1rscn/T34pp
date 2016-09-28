@@ -65,7 +65,131 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: movimiento_butterfly
+      takeName: movimiento_butterfly
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_head
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_head/Am001_butterfly_RIG:jnt_head_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3/Am001_butterfly_RIG:ctl_tail_4
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3/Am001_butterfly_RIG:ctl_tail_4/Am001_butterfly_RIG:jnt_tail_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_lf
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_lf/Am001_butterfly_RIG:jnt_wing_lf_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_rt
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_rt/Am001_butterfly_RIG:jnt_wing_rt_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static/Am001_butterfly_RIG:grp_mdl
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static/Am001_butterfly_RIG:grp_mdl/Am001_butterfly_RIG:butterfly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo_vueloespiral
+      takeName: reposo_vueloespiral
+      firstFrame: 60
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_head
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_head/Am001_butterfly_RIG:jnt_head_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3/Am001_butterfly_RIG:ctl_tail_4
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_tail_1/Am001_butterfly_RIG:ctl_tail_2/Am001_butterfly_RIG:ctl_tail_3/Am001_butterfly_RIG:ctl_tail_4/Am001_butterfly_RIG:jnt_tail_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_lf
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_lf/Am001_butterfly_RIG:jnt_wing_lf_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_rt
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_move/Am001_butterfly_RIG:ctl_all/Am001_butterfly_RIG:ctl_wing_rt/Am001_butterfly_RIG:jnt_wing_rt_end
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static/Am001_butterfly_RIG:grp_mdl
+        weight: 1
+      - path: Am001_butterfly_RIG:Am001_butterfly/Am001_butterfly_RIG:grp_static/Am001_butterfly_RIG:grp_mdl/Am001_butterfly_RIG:butterfly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

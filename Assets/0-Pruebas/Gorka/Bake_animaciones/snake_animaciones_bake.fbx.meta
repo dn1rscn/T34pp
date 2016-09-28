@@ -61,7 +61,123 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: movimiento_serpiente
+      takeName: movimiento_serpiente
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ctl_all
+        weight: 1
+      - path: ctl_all/ctl_neck
+        weight: 1
+      - path: ctl_all/ctl_neck/ctl_head
+        weight: 1
+      - path: ctl_all/ctl_neck/ctl_head/ctl_head_end
+        weight: 1
+      - path: ctl_all/ctl_tail_01
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_07
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_07/ctl_tail_end
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/snake
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo_serpiente
+      takeName: reposo_serpiente
+      firstFrame: 90
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ctl_all
+        weight: 1
+      - path: ctl_all/ctl_neck
+        weight: 1
+      - path: ctl_all/ctl_neck/ctl_head
+        weight: 1
+      - path: ctl_all/ctl_neck/ctl_head/ctl_head_end
+        weight: 1
+      - path: ctl_all/ctl_tail_01
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_07
+        weight: 1
+      - path: ctl_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_07/ctl_tail_end
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/snake
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

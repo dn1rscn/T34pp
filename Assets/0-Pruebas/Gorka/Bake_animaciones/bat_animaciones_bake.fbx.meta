@@ -78,7 +78,223 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: volar_bat
+      takeName: volar_bat
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_all
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf/ctl_ear_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt/ctl_ear_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf/ctl_feet_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt/ctl_feet_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf/wing_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt/wing_end_rt
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/batBody
+        weight: 1
+      - path: grp_static/grp_mdl/wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: volar_colgarse_bat
+      takeName: volar_colgarse_bat
+      firstFrame: 25
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_all
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf/ctl_ear_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt/ctl_ear_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf/ctl_feet_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt/ctl_feet_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf/wing_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt/wing_end_rt
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/batBody
+        weight: 1
+      - path: grp_static/grp_mdl/wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: volar_descolgarse
+      takeName: volar_descolgarse
+      firstFrame: 90
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_all
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_lf/ctl_ear_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_ear_rt/ctl_ear_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_lf/ctl_feet_02_lf/ctl_feet_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_feet_01_rt/ctl_feet_02_rt/ctl_feet_end_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_lf/ctl_wing_02_lf/wing_end_lf
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt
+        weight: 1
+      - path: grp_move/ctl_all/ctl_wing_01_rt/ctl_wing_02_rt/wing_end_rt
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/batBody
+        weight: 1
+      - path: grp_static/grp_mdl/wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

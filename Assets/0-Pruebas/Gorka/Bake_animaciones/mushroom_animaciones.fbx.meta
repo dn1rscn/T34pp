@@ -45,7 +45,91 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mushroomreposo
+      takeName: Mushroomreposo
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo/mushrroom_animacion_v1_j_cabeza
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo/mushrroom_animacion_v1_j_cabeza/mushrroom_animacion_v1_j_punta_cabeza
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_static
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_static/mushrroom_animacion_v1_geo_mushrom
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Mushroommovimiento
+      takeName: Mushroommovimiento
+      firstFrame: 125
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo/mushrroom_animacion_v1_j_cabeza
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_move/mushrroom_animacion_v1_j_tallo/mushrroom_animacion_v1_j_cabeza/mushrroom_animacion_v1_j_punta_cabeza
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_static
+        weight: 1
+      - path: mushrroom_animacion_v1_Ab001_Mushroom/mushrroom_animacion_v1_grp_static/mushrroom_animacion_v1_geo_mushrom
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
