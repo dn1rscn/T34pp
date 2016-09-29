@@ -99,7 +99,7 @@ public class ControlRespuesta : MonoBehaviour
 		//ejecutarSonidoAcierto
 		//GameObject.Find("SonidoAcierto").GetComponent<AudioSource>().Play();
 
-		GameObject.Find("robot_animaciones_bake").GetComponent<Animator>().Play("acierto_robot");
+		GameObject.Find("Fantasma_bake").GetComponent<Animator>().Play("Fantasmaacierto");
 		
 		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 
@@ -117,7 +117,7 @@ public class ControlRespuesta : MonoBehaviour
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
 
 		print ("error");
-		GameObject.Find("robot_animaciones_bake").GetComponent<Animator>().Play("fallo_robot");
+		GameObject.Find("Fantasma_bake").GetComponent<Animator>().Play("Fantasmafallo");
 
 		cdg.fallos++;
 		cdg.aciertosSeguidos=0;

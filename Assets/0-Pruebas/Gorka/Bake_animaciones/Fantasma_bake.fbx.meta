@@ -301,7 +301,939 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fantasmareposo
+      takeName: Fantasmareposo
+      firstFrame: 10
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_cuerpo
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Encias
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente13
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente14
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente15
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente16
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente17
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente18
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente19
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente20
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente21
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente22
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente23
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula/fantasma_ciclo_animacion_propio_v1_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der/fantasma_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der/fantasma_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der/fantasma_ciclo_animacion_propio_v1_joint2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der/fantasma_ciclo_animacion_propio_v1_joint8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq/fantasma_ciclo_animacion_propio_v1_joint6
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq/fantasma_ciclo_animacion_propio_v1_joint4
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq/fantasma_ciclo_animacion_propio_v1_joint2
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq/fantasma_ciclo_animacion_propio_v1_joint8
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6/fantasma_ciclo_animacion_propio_v1_j_Punta_Punta
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fantasmamovimiento
+      takeName: Fantasmamovimiento
+      firstFrame: 85
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_cuerpo
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Encias
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente13
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente14
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente15
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente16
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente17
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente18
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente19
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente20
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente21
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente22
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente23
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula/fantasma_ciclo_animacion_propio_v1_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der/fantasma_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der/fantasma_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der/fantasma_ciclo_animacion_propio_v1_joint2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der/fantasma_ciclo_animacion_propio_v1_joint8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq/fantasma_ciclo_animacion_propio_v1_joint6
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq/fantasma_ciclo_animacion_propio_v1_joint4
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq/fantasma_ciclo_animacion_propio_v1_joint2
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq/fantasma_ciclo_animacion_propio_v1_joint8
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6/fantasma_ciclo_animacion_propio_v1_j_Punta_Punta
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fantasmafallo
+      takeName: Fantasmafallo
+      firstFrame: 145
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_cuerpo
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Encias
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente13
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente14
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente15
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente16
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente17
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente18
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente19
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente20
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente21
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente22
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente23
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula/fantasma_ciclo_animacion_propio_v1_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der/fantasma_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der/fantasma_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der/fantasma_ciclo_animacion_propio_v1_joint2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der/fantasma_ciclo_animacion_propio_v1_joint8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq/fantasma_ciclo_animacion_propio_v1_joint6
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq/fantasma_ciclo_animacion_propio_v1_joint4
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq/fantasma_ciclo_animacion_propio_v1_joint2
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq/fantasma_ciclo_animacion_propio_v1_joint8
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6/fantasma_ciclo_animacion_propio_v1_j_Punta_Punta
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fantasmaacierto
+      takeName: Fantasmaacierto
+      firstFrame: 207
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_der/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Mano_izq/fantasma_ciclo_animacion_propio_v1_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cabeza/fantasma_ciclo_animacion_propio_v1_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_move/fantasma_ciclo_animacion_propio_v1_CTrl_Personaje/fantasma_ciclo_animacion_propio_v1_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_cuerpo
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Diente11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_Encias
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente13
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente14
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente15
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente16
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente17
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente18
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente19
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente20
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente21
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente22
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_Diente23
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube9
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_G_Boca/fantasma_ciclo_animacion_propio_v1_G_Aparato/fantasma_ciclo_animacion_propio_v1_pCube10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_cejas/fantasma_ciclo_animacion_propio_v1_pCube8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_gafas/fantasma_ciclo_animacion_propio_v1_pCube7
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_grupo_manos/fantasma_ciclo_animacion_propio_v1_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_Fantasma_geometria/fantasma_ciclo_animacion_propio_v1_ojo_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Mandibula/fantasma_ciclo_animacion_propio_v1_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_der/fantasma_ciclo_animacion_propio_v1_joint6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_med_der/fantasma_ciclo_animacion_propio_v1_joint4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_dedo_men_der/fantasma_ciclo_animacion_propio_v1_joint2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint10/fantasma_ciclo_animacion_propio_v1_j_pulgar_der/fantasma_ciclo_animacion_propio_v1_joint8
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_der/fantasma_ciclo_animacion_propio_v1_joint12
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_ind_izq/fantasma_ciclo_animacion_propio_v1_joint6
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_med_izq/fantasma_ciclo_animacion_propio_v1_joint4
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_dedo_men_izq/fantasma_ciclo_animacion_propio_v1_joint2
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint10
+          1/fantasma_ciclo_animacion_propio_v1_j_pulgar_izq/fantasma_ciclo_animacion_propio_v1_joint8
+          1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_mano_izq/fantasma_ciclo_animacion_propio_v1_joint11
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_ciclo_animacion_propio_v1_FANTASMA/fantasma_ciclo_animacion_propio_v1_grp_static/fantasma_ciclo_animacion_propio_v1_j_Cadera/fantasma_ciclo_animacion_propio_v1_j_Cabeza/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_1/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_2/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_3/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_4/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_5/fantasma_ciclo_animacion_propio_v1_j_Punta_Cabeza_6/fantasma_ciclo_animacion_propio_v1_j_Punta_Punta
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
